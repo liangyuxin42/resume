@@ -75,7 +75,7 @@ content:
   - title: Education and Work
     layout: list
     content:
-      - layout: center
+      - layout: top-middle
         title: M.S. in Software Engineering
         sub_title: Northwest University
         caption: 2019.09 - Present
