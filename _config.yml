@@ -52,11 +52,13 @@ darkmode: false
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile-photo.jpg
 about_content: | # this will include new lines to allow paragraphs
+
   Hi, my name is Liang Yuxin. I am a master's student in computer science from Northwestern University. 
-  My research interests in <mark>natural language processing</mark> and <mark>representation learning<、mark>. 
+  My research interests in <mark>natural language processing</mark> and <mark>representation learning</mark>. 
+  
   
   During my master's study, I was introduced to and fascinated by the rich and exciting field of natural language processing. 
-  I have conducted research work on text representation learning (some of which has been published). 
+  My research work centers around text representation learning (some of which has been published). 
   In this process I have also acquired some essential skills, including literature searching and reading, programming (mainly in python and pytorch), and the ability to communicate with people in depth about academic subjects. 
   
   I hope to continue the fascinating and challenging research journey during my PhD!
