@@ -54,7 +54,7 @@ about_profile_image: images/profile-photo.jpg
 about_content: | # this will include new lines to allow paragraphs
 
   Hi, my name is Liang Yuxin. I am a master's student in computer science from Northwestern University. 
-  My research interests in <mark>natural language processing</mark> and <mark>representation learning</mark>. 
+  My research interests are in <mark>natural language processing</mark> and <mark>representation learning</mark>. 
   
   
   During my master's study, I was introduced to and fascinated by the rich and exciting field of natural language processing. 
@@ -75,22 +75,31 @@ content:
   - title: Education and Work
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-left
         title: M.S. in Software Engineering
 #         sub_title: 
         caption: 2019.09 - Present in Northwest University
         description: | # this will include new lines to allow paragraphs
-          Research Topic: Natural Language Processing, Representation Learning
+          - Research Topic: Natural Language Processing, Representation Learning
+          - During my master’s program in Northwest University, my research work was focused on representation learning of text, especially on the geometry of the representation. 
       - layout: top-left
         title: Assistant Engineer for Defect Analysis
 #         sub_title: 
         caption: 2015.07 - 2017.10 in Samsung Suzhou LCD Co., Ltd.
         description: | # this will include new lines to allow paragraphs
+          - After I graduated from my bachelor's degree, I worked for Samsung for two years. 
+          I was responsible for the analysis of product defects and assisting the manufacturing department in solving the defects. 
+          In addition to the physical and chemical analysis techniques, I also learned during these two years how to analyze a specific problem (such as the cause of a specific product defect) and how to work with people in a complex system to solve a problem. 
+          This has been of great benefit to my later work and research.
       - layout: top-left
         title: B.S. in Nanomaterials and Technology
 #         sub_title: 
         caption: 2011.09-2015.06 in Nanjing University of Science and Technology
-        description: | # this will include new lines to allow paragraphs        
+        description: | # this will include new lines to allow paragraphs   
+          - I studied at Nanjing University of Science and Technology for my undergraduate degree, majoring in nanomaterial. 
+          The main topics of study include condensed matter physics, semiconductor materials and nanomaterials. 
+          This has little to do with my current research, but an outsider's perspective sometimes brings new ideas. 
+          Also, I gained a good foundation in mathematics and physics during my undergraduate studies.
           
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
