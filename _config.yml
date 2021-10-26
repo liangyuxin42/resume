@@ -77,11 +77,30 @@ content:
     content:
       - layout: top-left
         title: M.S. in Software Engineering
-#         sub_title: 
-        caption: 2019.09 - Present in Northwest University
+        sub_title: Northwest University
+        caption: 2019.09 - Present
         description: | # this will include new lines to allow paragraphs
+          ### Research
           - Research Topic: Natural Language Processing, Representation Learning
-          - During my master’s program in Northwest University, my research work was focused on representation learning of text, especially on the geometry of the representation. 
+          
+          - During my master’s program in Northwest University, my research work was focused on representation learning of text, especially on the geometry of the representation. My work can be divided into three main subdivisions.
+          
+          - Firstly, the geometric properties of word embeddings of pre-trained language models such as BERT are investigated and it is found that such word embeddings occupy only a low-dimensional subspace of the representation space (representation degradation problem). 
+          My work, which was accepted by ICANN2021, optimizes word embeddings by removing dominant directions to make them more homogeneous and improve their task performance.
+          
+          - I also work on optimizing the text representation of pre-trained models using unsupervised contrast learning, by performing data augmentation on large-scale unlabeled text and porting the two-branch structure commonly used in CV. 
+          This work have been submitted to ACL 2022.
+          
+          - Besides, I am also interested in using different losses in text classification tasks to improve the learned text representation, and have tried to use MCR2 loss in CV for text classification and <a href="https://slideslive.com/38955582/applying-maximal-coding-rate-reduction-to-text-classification">presented at the journe@MLSys2021 workshop</a>.
+          
+          - During the research process I not only increased my understanding of the field, but also learned some important research skills, including searching and reading literature, designing experiments and writing code to execute them, communicating with people in depth about academic subjects, writing and presenting papers, and so on.
+          
+          - It has been a fulfilling journey, but in the process of gaining knowledge and skills I feel that there is not less but more to learn. 
+          During the Ph.D. process, I hope to go further in my research work, including but not limited to learning how to get to the bottom of a problem, how to use mathematical tools to solve research problems, and how to communicate and collaborate more effectively.
+          
+          ### Others
+          - Besides my research work, I also served as a teaching assistant for undergraduate programming courses, including teaching the experimental section, grading assignments, and answering questions.
+          
       - layout: top-left
         title: Assistant Engineer for Defect Analysis
 #         sub_title: 
