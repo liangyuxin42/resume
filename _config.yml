@@ -80,7 +80,7 @@ content:
         sub_title: Northwest University
         caption: 2019.09 - Present
         description: | # this will include new lines to allow paragraphs
-          ##### Research
+          #### Research
           - Research Topic: Natural Language Processing, Representation Learning
           
           - During my master’s program in Northwest University, my research work was focused on representation learning of text, especially on the geometry of the representation. My work can be divided into three main subdivisions.
@@ -98,7 +98,7 @@ content:
           - It has been a fulfilling journey, but in the process of gaining knowledge and skills I feel that there is not less but more to learn. 
           During the Ph.D. process, I hope to go further in my research work, including but not limited to learning how to get to the bottom of a problem, how to use mathematical tools to solve research problems, and how to communicate and collaborate more effectively.
           
-          ##### Others
+          #### Others
           - Besides my research work, I also served as a teaching assistant for undergraduate programming courses, including teaching the experimental section, grading assignments, and answering questions.
           
       - layout: top-left
