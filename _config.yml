@@ -72,7 +72,7 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Education and Work
+  - title: Education and Experience
     layout: list
     content:
       - layout: top-left
@@ -100,16 +100,25 @@ content:
           
           #### Others
           - Besides my research work, I also served as a teaching assistant for undergraduate programming courses, including teaching the experimental section, grading assignments, and answering questions.
+     
+     - layout: top-left
+        title: Physics Teacher
+        sub_title: New Oriental Education & Technology Group Inc.
+        caption: 2019.05 - 2019.09
+        description: | # this will include new lines to allow paragraphs
+          - I worked briefly as a middle school teacher in an educational institution, teaching two classes of physics, including theoretical knowledge and experimental operations. 
+          Despite the short time, I learned a lot of presentation skills, such as how to use relevant questions and stories to capture the audience's attention, how to control body language, etc.
           
       - layout: top-left
-        title: Assistant Engineer for Defect Analysis
-#         sub_title: 
-        caption: 2015.07 - 2017.10 in Samsung Suzhou LCD Co., Ltd.
+        title: Defect Analysis Engineer
+        sub_title: Samsung Suzhou LCD Co., Ltd.
+        caption: 2015.07 - 2017.10 
         description: | # this will include new lines to allow paragraphs
           - After I graduated from my bachelor's degree, I worked for Samsung for two years. 
           I was responsible for the analysis of product defects and assisting the manufacturing department in solving the defects. 
           In addition to the physical and chemical analysis techniques, I also learned during these two years how to analyze a specific problem (such as the cause of a specific product defect) and how to work with people in a complex system to solve a problem. 
           This has been of great benefit to my later work and research.
+      
       - layout: top-left
         title: B.S. in Nanomaterials and Technology
 #         sub_title: 
@@ -120,75 +129,27 @@ content:
           This has little to do with my current research, but an outsider's perspective sometimes brings new ideas. 
           Also, I gained a good foundation in mathematics and physics during my undergraduate studies.
           
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Weighted Removal
-        link: https://github.com/liangyuxin42/weighted-removal
-        link_text: Learning to Remove
-#         additional_links:
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#         quote: >
-#           Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          This is code for Learning to Remove: Towards Isotropic Pre-trained BERT Embedding
-      - layout: right
-        title: SimCSE-reproduce
-        link: https://github.com/liangyuxin42/SimCSE-reproduce
-        link_text: SimCSE-reproduce
-#         additional_links:
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#         quote: >
-#           Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Reproduce the unsupervised SimCSE in Jupyter-notebook for education of contrastive learning
-          
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: Master's Program
-        sub_title: Northwest University
-        caption: 2019.09 - Present
-#         link: Link to company (optional)
-#         quote: >
-#           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          * Geometric property correction of pre-trained language model word embeddings, making the embedding more isotropic by removing the dominant directions
-          * Contrastive learning using pre-trained language models to improve the performance of text encoders, focusing primarily on unsupervised contrastive learning without negative samples
-          * Text classification using different loss functions to adjust the geometry of the text embedding
-          
-      - layout: right
-        title: Teaching Assistant
-        sub_title: Northwest University
-        caption: 2020.09 - 2020.12
-#         link: Link to company (optional)
-#         quote: >
-#           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Assisting in teaching the undergraduate python programming course, including teaching the experimental section, grading assignments, and answering questions
-          
-      - layout: right
-        title: Physics Teacher
-        sub_title: New Oriental Education & Technology Group Inc.
-        caption: 2019.05~2019.09
-#         link: Link to company (optional)
-#         quote: >
-#           Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Teaching secondary school physics for two classes including theory and experiments         
-                  
+  - title: Publications and Conferences
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      [1] Yuxin Liang, Rui Cao, Jie Zheng*, Jie Ren, and Ling Gao. <a href="https://arxiv.org/abs/2104.05274">Learning to Remove: Towards Isotropic Pre-trained BERT Embedding.</a> In International Conference on Artificial Neural Networks. Full Paper.
+      [2] Yuxin Liang, Rui Cao, Ling Gao, and Jie Zheng*. Applying Maximal Coding Rate Reduction to Text classification. In Conference on Machine Learning and Systems. Workshop.
+        
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Research experience in deep learning and natural language processing
+      - Proficiency in python programming and pytorch framework (<a href="https://github.com/liangyuxin42">some projects here</a>)
+      - Proficiency in reading, writing and oral communication in English (IELTS 7.5)
+      
+  - title: Awards
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - First-Class Academic Scholarship, Northwest University, 2019
+      - First-Class Academic Scholarship, Northwest University, 2020
+      - Second Prize of the 17th China Graduate Student Mathematical Modeling Competition
+      - Third Prize of the 15th China Postgraduate Electronic Design Competition in Northwest Region
+ 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
